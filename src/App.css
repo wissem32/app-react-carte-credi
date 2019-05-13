@@ -1,0 +1,63 @@
+.App {
+  background-color: rgb(23, 23, 117);
+   
+  width:300px;
+  height: 290px; 
+  padding:10px;
+  margin-left: 230px;
+  margin-top: 30px;
+  border-color: rgb(67, 49, 170);
+  border-bottom-style: double;
+border-radius: 5px; 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.head{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1fJfFrs2wCWFxkCLm_mmWPnh1-f0HSoCpkrVMrOYt61VrCv0");
+  background-repeat:no-repeat;
+background-size:cover;
+image-resolution: 1000dpi;
+}
+
+.image{
+  width:80px;
+  height: 60px;
+ margin-left:230px;
+ margin-top: 0px; 
+ display: flex;
+ padding: 0px;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
+
+.App-link {
+  color: #61dafb;
+}
+
+.sim{
+  background-color: gold;
+  width:35px;
+  height: 25px;
+}
